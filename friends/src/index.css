@@ -5,9 +5,94 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-size:1.5rem;
+  color:white;
+  background:rgb(71, 68, 68);
+}
+
+a:hover {
+  color:rgb(195, 0, 255);
+}
+a{
+  background:rgb(168, 147, 147);
+  font-weight: 700;
+}
+
+ul{
+  display:flex;
+  justify-content: center;
+  background:rgb(168, 147, 147);
+}
+
+li{
+  margin:25px;
+}
+
+button:hover{
+  background:rgb(195, 0, 255);
+
+}
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.login {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+  margin: 0 auto;
+}
+
+.login input{
+  background:white;
+  margin: 10px 0;
+  width:80%;
+
+}
+button {
+  width:80%;
 }

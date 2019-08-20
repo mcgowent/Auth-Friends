@@ -24,14 +24,17 @@ class Login extends React.Component {
             .post('http://localhost:5000/api/login', this.state.credentials)
             .then(res => {
                 localStorage.setItem('token', res.data.payload);
+                this.props.history.push('/protected')
             })
             .catch(err => console.log(err.response));
     };
 
+
+
     render() {
         return (
             <div>
-                <form onSubmit={this.login}>
+                <form className='login' onSubmit={this.login}>
                     <input
                         type="text"
                         name="username"
