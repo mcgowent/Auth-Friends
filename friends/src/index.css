@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 1.5rem;
+}
+
+
+a:hover {
+  color:rgb(195, 0, 255);
+}
+a{
+  background:rgb(168, 147, 147);
+  font-weight: 700;
+  text-decoration: none;
+  color:white;
+
+
+}
+
+h1,h2,h3{
+  color:white;
+
+}
+ul{
+  display:flex;
+  justify-content: center;
+  background:rgb(168, 147, 147);
+  list-style: none;
+}
+
+li{
+  margin:25px;
+}
+
+button:hover{
+  background:rgb(195, 0, 255);
+
+}
+.App {
+  text-align: center;
+}
+html{
+ background:rgb(71, 68, 68);
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.login {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+  margin: 0 auto;
+}
+
+.login input{
+  color:rgb(195, 0, 255);
+  background:white;
+  margin: 10px 0;
+  width:80%;
+  height: 40px;
+  font-size: 1rem;
+
+}
+button {
+  width:80%;
+  height: 40px;
+  font-size:1.2rem;
+}
+
+.friendCard {
+  margin: 50px;
+  background:white;
+  color:black;
+
+  padding-left:45px;
+
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
