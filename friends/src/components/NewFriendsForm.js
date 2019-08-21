@@ -38,9 +38,10 @@ class NewFriendsForm extends Component {
 
     render() {
         return (
-            <form className="Column-Layout">
+            <form className='login'>
+                <h3>Add A New Friend to Your List</h3>
+
                 <input
-                    className="input"
                     value={this.state.name}
                     name="name"
                     type="text"
@@ -48,7 +49,6 @@ class NewFriendsForm extends Component {
                     onChange={this.handleInputChange}
                 />
                 <input
-                    className="input"
                     value={this.state.age}
                     name="age"
                     type="text"
@@ -56,7 +56,6 @@ class NewFriendsForm extends Component {
                     onChange={this.handleInputChange}
                 />
                 <input
-                    className="input"
                     value={this.state.email}
                     name="email"
                     type="text"

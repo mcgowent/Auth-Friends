@@ -6,20 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  font-size: 1.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-* {
-  list-style: none;
-  text-decoration: none;
-  font-size:1.5rem;
-  color:white;
-  background:rgb(71, 68, 68);
-}
 
 a:hover {
   color:rgb(195, 0, 255);
@@ -27,12 +16,21 @@ a:hover {
 a{
   background:rgb(168, 147, 147);
   font-weight: 700;
+  text-decoration: none;
+  color:white;
+
+
 }
 
+h1,h2,h3{
+  color:white;
+
+}
 ul{
   display:flex;
   justify-content: center;
   background:rgb(168, 147, 147);
+  list-style: none;
 }
 
 li{
@@ -45,6 +43,9 @@ button:hover{
 }
 .App {
   text-align: center;
+}
+html{
+ background:rgb(71, 68, 68);
 
 }
 
@@ -88,11 +89,29 @@ button:hover{
 }
 
 .login input{
+  color:rgb(195, 0, 255);
   background:white;
   margin: 10px 0;
   width:80%;
+  height: 40px;
+  font-size: 1rem;
 
 }
 button {
   width:80%;
+  height: 40px;
+  font-size:1.2rem;
 }
+
+.friendCard {
+  margin: 50px;
+  background:white;
+  color:black;
+
+  padding-left:45px;
+
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+

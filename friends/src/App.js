@@ -23,6 +23,8 @@ function App() {
             <Link to="/new">Add Friend</Link>
           </li>
         </ul>
+        <h1>Login and Friends onboarding Assignment</h1>
+        <h3>Click an Option above. If you have not logged in yet you will not be able to go to either the Protected Page or the Add Friend page.</h3>
         <Route path="/login" component={Login} />
         <PrivateRoute exact path="/protected" component={Friends} />
         <PrivateRoute exact path="/new" component={New} />
